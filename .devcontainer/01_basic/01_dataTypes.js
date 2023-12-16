@@ -1,4 +1,5 @@
 
+
 //primitive data Type
 // Number =>2 to 53
 //string =>""
