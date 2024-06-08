@@ -65,3 +65,46 @@ function rreturnSecondValue(getArray)
 }
 //console.log(rreturnSecondValue(myNewArray))
 //console.log(rreturnSecondValue([1,2,3,4,5,6,12,13]))
+
+function one()
+{
+    const username="hitesh"
+    function two()
+    {
+        const website="youtube";
+        console.log(website);
+        console.log(username)
+
+    }
+    two()
+   // console.log(website);
+}
+
+//one()
+
+// if(true)
+//     {
+//         const username="hitesh"
+//         if(username==="hitesh")
+//             {
+//                 const website="youtube"
+//                 console.log(username+website);
+//             }
+//             //console.log(wensite);
+//     }
+    //console.log(username);
+
+    // +++++++++++++++++++ interesting +++++++++++++
+    console.log(addone(2))
+    function addone(num)
+    {
+        return num+1;
+    }
+ //   addone(5)
+
+   addTwo(5)
+    const addTwo=function(num)
+    {
+        return num+2;
+    }
+  //  console.log(addTwo(5))
