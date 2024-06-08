@@ -38,4 +38,30 @@ function collectvalue(var1,var2,var3, ...val)
 {
     return (var1,var2,var3,val)
 }
-console.log(collectvalue(1,2,3,4,5,6,7,8,9,12,1,3,14,1,5,14,))
+//console.log(collectvalue(1,2,3,4,5,6,7,8,9,12,1,3,14,1,5,14,))
+
+const user={
+    username:"roshan",
+    price:1223
+}
+//console.log(user)
+
+function handleObject(obj)
+{
+    console.log(`username is ${obj.username} and price is ${obj.price}`);
+}
+//handleObject(user)
+// handleObject(
+//     {
+//         username:"manish",
+//         price:1234
+//     }
+// )
+
+const myNewArray=[200,400,100,600]
+function rreturnSecondValue(getArray)
+{
+    return getArray[1];
+}
+//console.log(rreturnSecondValue(myNewArray))
+//console.log(rreturnSecondValue([1,2,3,4,5,6,12,13]))
